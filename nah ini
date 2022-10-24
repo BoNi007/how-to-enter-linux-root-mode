@@ -1,0 +1,30 @@
+$ sudo su 
+atau jika tidak bisa
+--------------------
+$ su 
+atau coba ini lagi
+--------------------
+$ su -
+atau kalau masih belum bisa coba ini
+--------------------
+$ sudo -s
+atau
+--------------------
+$ sudo bash
+
+Jika ingin mengganti password root ketik perintah
+--------------------
+# passwd
+Jika ingin mengganti password user tertentu jalankan perintah
+---------------------
+$ sudo passwd namauser
+Lalu masukkan password baru yang anda inginkan.
+-----------------------
+Tambahan pas masuk mode root
+
+cd /etc/ssh ; nano sshd_config
+
+systemctl restart ssh
+-------------------------
+
+Sekian Terima Kasih
